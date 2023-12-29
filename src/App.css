@@ -4,28 +4,36 @@
   color: white;
 }
 
-.bg-pattern-home-svg-2 {
+.bg-home-section-1 {
   background-image: url('./assets/images/bg-pattern-home-2.svg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   height: 567px;
 }
-.bg-pattern-home-svg-3 {
+.bg-home-section-2 {
   background-image: url('./assets/images/bg-pattern-home-3.svg');
   background-repeat: no-repeat;
   background-position: top 0 right -80px;
   height: 1073px;
 }
 
+.bg-home-section-3 {
+  background-image: url('./assets/images/bg-pattern-home-4-about-3.svg'),
+    url('./assets/images/bg-pattern-about-2-contact-1.svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom -100px right 0;
+  height: 1410px;
+}
+
 @media (min-width: 640px) {
-  .bg-pattern-home-svg-2 {
+  .bg-home-section-1 {
     background-image: url('./assets/images/bg-pattern-home-2.svg');
     background-repeat: no-repeat;
     background-position: bottom 0 center 0;
     background-size: auto;
   }
-  .bg-pattern-home-svg-3 {
+  .bg-home-section-2 {
     background-image: url('./assets/images/bg-pattern-home-3.svg');
     background-repeat: no-repeat;
     background-position: 150% 0;
@@ -33,13 +41,13 @@
 }
 
 @media (min-width: 1024px) {
-  .bg-pattern-home-svg-2 {
+  .bg-home-section-1 {
     background-image: url('./assets/images/bg-pattern-home-2.svg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
   }
-  .bg-pattern-home-svg-3 {
+  .bg-home-section-2 {
     background-image: url('./assets/images/bg-pattern-home-3.svg');
     background-repeat: no-repeat;
     background-position: 150% 0;
