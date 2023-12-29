@@ -5,9 +5,12 @@ import cogIcon from '../../assets/images/icon-cog.svg';
 import chartIcon from '../../assets/images/icon-chart.svg';
 import Pitch from './components/Pitch';
 import Testimonial from './components/Testimonial';
-import Person1Img from '../../assets/images/avatar-kady.jpg';
-import Person2Img from '../../assets/images/avatar-aiysha.jpg';
-import Person3Img from '../../assets/images/avatar-arthur.jpg';
+import person1Img from '../../assets/images/avatar-kady.jpg';
+import person2Img from '../../assets/images/avatar-aiysha.jpg';
+import person3Img from '../../assets/images/avatar-arthur.jpg';
+import facebookIcon from '../../assets/images/icon-facebook.svg';
+import pinterestIcon from '../../assets/images/icon-pinterest.svg';
+import twitterIcon from '../../assets/images/icon-twitter.svg';
 
 import './home.scss';
 
@@ -66,12 +69,12 @@ const Home = () => {
           <span className="text-rapture-blue">success stories.</span>
         </h2>
         <Testimonial
-          image={{ src: Person1Img, alt: 'Testimonial photo of Kady' }}
+          image={{ src: person1Img, alt: 'Testimonial photo of Kady' }}
           person={{ name: 'Kady Baker', title: 'Product Manager of Bookmark' }}
           content=" “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”"
         />
         <Testimonial
-          image={{ src: Person2Img, alt: 'Testimonial photo of Aiysha' }}
+          image={{ src: person2Img, alt: 'Testimonial photo of Aiysha' }}
           person={{
             name: 'Aiysha Reese',
             title: 'Founder of Manage',
@@ -79,13 +82,48 @@ const Home = () => {
           content=" “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”"
         />
         <Testimonial
-          image={{ src: Person3Img, alt: 'Testimonial photo of Arthur' }}
+          image={{ src: person3Img, alt: 'Testimonial photo of Arthur' }}
           person={{
             name: 'Arthur Clarke',
             title: 'Co-founder of MyPhysio',
           }}
           content=" “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”"
         />
+      </div>
+      <div className="bg-secondary flex justify-center items-center px-10 py-20">
+        <section className="flex flex-col justify-center">
+          <h3 className="text-sacramento-state-green text-3xl font-bold mb-7 text-center">
+            Ready to get started?
+          </h3>
+          <div className="text-center">
+            <button className="h-12 font-semibold text-lg text-sacramento-state-green border-2 border-sacramento-state-green rounded-full px-10">
+              contact us
+            </button>
+          </div>
+        </section>
+      </div>
+      <div className="py-20 bg-sacramento-state-green">
+        <div className="flex flex-col justify-center items-center">
+          <img src={logo} alt="Footer myteam logo" className="w-[95px] mb-9" />
+          <div className="flex justify-center align-center gap-9">
+            <a href="">home</a>
+            <a href="">about</a>
+          </div>
+          <ul className="list-none text-center mt-10 mb-10 opacity-60">
+            <li className="mb-2">987 Hillcrest Lane</li>
+            <li className="mb-2">Irvine, CA</li>
+            <li className="mb-2">California 92714</li>
+            <li className="mb-2">Call Us : 949-833-7432</li>
+          </ul>
+          <div className="flex gap-4 mb-5">
+            <img src={facebookIcon} alt="Facebook Icon" />
+            <img src={pinterestIcon} alt="Pinterest Icon" />
+            <img src={twitterIcon} alt="Twitter Icon" />
+          </div>
+          <p className="text-center opacity-60">
+            Copyright 2020. All Rights Reserved
+          </p>
+        </div>
       </div>
     </>
   );
