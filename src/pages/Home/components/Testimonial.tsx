@@ -10,7 +10,7 @@ const Testimonial: React.FC<Props> = ({ image, content, person }) => {
   return (
     <section className="pt-14 flex flex-col items-center comma-icon">
       <p className="text-center leading-7">{content}</p>
-      <div className="py-4 text-center">
+      <div className="py-4 lg:pt-6 lg:pb-7 text-center">
         <h3 className="text-rapture-blue font-semibold text-lg">
           {person.name}
         </h3>

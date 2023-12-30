@@ -30,9 +30,6 @@
   .bg-home-section-2 {
     background-position: 150% 0;
   }
-  .bg-home-section-3 {
-    height: 1199px;
-  }
 
   .bg-home-section-4 {
     background: url('./assets/images/bg-pattern-home-6-about-5.svg') no-repeat;
@@ -42,7 +39,8 @@
 
 @media (min-width: 1024px) {
   .bg-home-section-1 {
-    background-image: url('./assets/images/bg-pattern-home-2.svg');
+    background-position: bottom 0 right 140px;
+    background-size: auto;
   }
   .bg-home-section-2 {
     background-image: url('./assets/images/bg-pattern-home-3.svg');
