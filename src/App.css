@@ -1,6 +1,5 @@
 #root {
   margin: 0 auto;
-  max-width: 1280px;
   color: white;
 }
 
@@ -9,13 +8,11 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  height: 567px;
 }
 .bg-home-section-2 {
   background-image: url('./assets/images/bg-pattern-home-3.svg');
   background-repeat: no-repeat;
   background-position: top 0 right -80px;
-  height: 1073px;
 }
 
 .bg-home-section-3 {
@@ -23,33 +20,31 @@
     url('./assets/images/bg-pattern-about-2-contact-1.svg');
   background-repeat: no-repeat;
   background-position: top left, bottom -100px right 0;
-  height: 1410px;
 }
 
 @media (min-width: 640px) {
   .bg-home-section-1 {
-    background-image: url('./assets/images/bg-pattern-home-2.svg');
-    background-repeat: no-repeat;
     background-position: bottom 0 center 0;
     background-size: auto;
   }
   .bg-home-section-2 {
-    background-image: url('./assets/images/bg-pattern-home-3.svg');
-    background-repeat: no-repeat;
     background-position: 150% 0;
+  }
+  .bg-home-section-3 {
+    height: 1199px;
+  }
+
+  .bg-home-section-4 {
+    background: url('./assets/images/bg-pattern-home-6-about-5.svg') no-repeat;
+    background-position: bottom -1rem left 0;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-home-section-1 {
     background-image: url('./assets/images/bg-pattern-home-2.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
   }
   .bg-home-section-2 {
     background-image: url('./assets/images/bg-pattern-home-3.svg');
-    background-repeat: no-repeat;
-    background-position: 150% 0;
   }
 }
