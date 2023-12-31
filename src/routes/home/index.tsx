@@ -33,7 +33,7 @@ const Home = () => {
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
               <h2 className="text-[32px] font-bold mb-14 w-2/3 pt-12 lg:text-[48px]">
-                Build & manage distributed teams like no one else.
+                Build & manage distributed teams like no one else
               </h2>
             </div>
             <div className="lg:pt-12">
