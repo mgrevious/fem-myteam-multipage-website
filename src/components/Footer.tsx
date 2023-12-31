@@ -2,6 +2,7 @@ import logo from '../assets/images/logo.svg';
 import facebookIcon from '../assets/images/icon-facebook.svg';
 import pinterestIcon from '../assets/images/icon-pinterest.svg';
 import twitterIcon from '../assets/images/icon-twitter.svg';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -18,8 +19,8 @@ const Footer: React.FC = () => {
                   className="w-[95px] mb-9"
                 />
                 <div className="flex justify-center align-center gap-9 sm:gap-5">
-                  <a href="">home</a>
-                  <a href="">about</a>
+                  <Link to="/">home</Link>
+                  <Link to="/about">about</Link>
                 </div>
               </div>
               <ul className="list-none text-center sm:text-right my-10 sm:m-0 opacity-60">

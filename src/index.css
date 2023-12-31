@@ -43,7 +43,8 @@
   }
 
   .home-section-4 {
-    background: url('./assets/images/bg-pattern-home-6-about-5.svg') no-repeat;
+    background-image: url('./assets/images/bg-pattern-home-6-about-5.svg');
+    background-repeat: no-repeat;
     background-position: bottom -1rem left 0;
   }
 }

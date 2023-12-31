@@ -2,7 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: '/fem-myteam-multi-page-website/',
-  plugins: [react()],
-});
+export default ({ mode }) => {
+  console.log('mode: ', mode);
+  return defineConfig({
+    base: mode === 'development' ? '/' : '/fem-myteam-multi-page-website/',
+    plugins: [react()],
+  });
+};

@@ -8,6 +8,7 @@ import cogIcon from '../../assets/images/icon-cog.svg';
 import chartIcon from '../../assets/images/icon-chart.svg';
 
 import './home.scss';
+import Contact from '../../components/Contact';
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
               <h2 className="text-[32px] font-bold mb-14 w-2/3 pt-12 lg:text-[48px]">
-                Build & manage distributed teams like no one else
+                Build & manage distributed teams like no one else.
               </h2>
             </div>
             <div className="lg:pt-12">
@@ -91,20 +92,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-secondary home-section-4">
-        <div className="flex justify-center items-center py-20 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto">
-          <section className="flex flex-col sm:flex-row justify-center sm:justify-between sm:items-center sm:w-full">
-            <h3 className="text-sacramento-state-green text-3xl font-bold mb-7 sm:mb-0 text-center">
-              Ready to get started?
-            </h3>
-            <div className="text-center">
-              <button className="h-12 font-semibold text-lg text-sacramento-state-green border-2 border-sacramento-state-green rounded-full px-8">
-                contact us
-              </button>
-            </div>
-          </section>
-        </div>
-      </div>
+      <Contact />
     </>
   );
 };
