@@ -31,8 +31,8 @@ const About = () => {
       <section className="about-section-2 bg-deep-jungle-green">
         <div className="py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto lg:py-32">
           <div>
-            <h2 className="text-[32px] sm:text-5xl text-center font-bold mb-12 lg:px-16 lg:p-0 sm:px-40 lg:mb-16">
-              Meet the Directors
+            <h2 className="text-[32px] text-center font-bold mb-12 lg:px-16 lg:p-0 lg:mb-16">
+              Meet the directors
             </h2>
             <ImageGallery />
           </div>
@@ -40,10 +40,10 @@ const About = () => {
       </section>
       <section className="about-section-3 bg-sacramento-state-green">
         <div className="py-20 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto lg:py-32">
-          <h3 className="text-3xl sm:text-5xl text-center font-bold mb-12 lg:p-0 sm:px-40 lg:mb-16">
+          <h3 className="text-3xl sm:text-[32px] text-center font-bold mb-12 lg:p-0 sm:px-40 lg:mb-16">
             Some of our clients
           </h3>
-          <div className="grid grid-cols-1 gap-14 px-20 sm:grid-cols-2 lg:grid-cols-5 lg:gap-20">
+          <div className="grid grid-cols-1 gap-14 px-20 sm:px-0 sm:grid-cols-5 sm:gap-8 lg:gap-20">
             <div>
               <img src={VergeIcon} alt="The Verge logo" />
             </div>
@@ -58,7 +58,7 @@ const About = () => {
             </div>
             <div>
               <img
-                className="w-28"
+                className="h-8 lg:h-11"
                 src={GadgetsNowIcon}
                 alt="Gadgets Now logo"
               />
