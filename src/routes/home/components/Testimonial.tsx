@@ -20,7 +20,7 @@ const Testimonial: React.FC<Props> = ({ image, content, person }) => {
         <img
           src={image.src}
           alt={image.alt}
-          className="rounded-full w-[62px] border-2 border-light-rapture-blue"
+          className="rounded-full w-16 border-2 border-light-rapture-blue"
         />
       </div>
     </section>

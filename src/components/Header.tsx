@@ -1,11 +1,11 @@
 import logo from '../assets/images/logo.svg';
 import hamburgerMenu from '../assets/images/icon-hamburger.svg';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
     <>
-      <div className="py-10 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto">
+      <div className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
         <header className="text-lg text-center font-semibold text-secondary">
           <nav>
             <div className="flex justify-between items-center">
@@ -30,9 +30,12 @@ const Header: React.FC = () => {
                   </NavLink>
                 </div>
               </div>
-              <button className="hidden sm:inline-block h-12 font-semibold text-lg border-2 text-white border-white rounded-full px-8">
+              <Link
+                to="/contact"
+                className="hidden sm:inline-block h-12 lg:flex lg:items-center font-semibold text-lg border-2 text-white border-white rounded-full px-8"
+              >
                 contact us
-              </button>
+              </Link>
               <button type="button" className="sm:hidden">
                 <img src={hamburgerMenu} alt="" />
               </button>

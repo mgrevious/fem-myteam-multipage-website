@@ -42,7 +42,7 @@
     background-position: 150% 0;
   }
 
-  .home-section-4 {
+  .contact-section {
     background-image: url('./assets/images/bg-pattern-home-6-about-5.svg');
     background-repeat: no-repeat;
     background-position: bottom -1rem left 0;
@@ -56,5 +56,30 @@
   }
   .home-section-2 {
     background-image: url('./assets/images/bg-pattern-home-3.svg');
+  }
+
+  .about-section-1 {
+    background-image: url('./assets/images/bg-pattern-about-1-mobile-nav-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0 right -100px;
+  }
+
+  .about-section-2 {
+    background-image: url('./assets/images/bg-pattern-about-2-contact-1.svg'),
+      url('./assets/images/bg-pattern-home-4-about-3.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left -100px, bottom right;
+  }
+
+  .about-section-3 {
+    background-image: url('./assets/images/bg-pattern-about-4.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+  }
+
+  .contact-section-1 {
+    background-image: url('./assets/images/bg-pattern-about-2-contact-1.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left -100px;
   }
 }

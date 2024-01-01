@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <div className="bg-dark-green text-white">
-        <div className="py-16 sm:py-16 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto">
+        <div className="py-16 sm:py-16 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center sm:w-full sm:items-start">
               {' '}

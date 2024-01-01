@@ -13,23 +13,23 @@ import Contact from '../../components/Contact';
 const Home = () => {
   return (
     <>
-      <div className="py-10 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto home-section-1">
-        <section className="mt-24 sm:mt-28 lg:mb-48 lg:flex lg:justify-between">
-          <h1 className="text-4xl sm:text-[64px] sm:leading-[64px] text-center font-bold mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:leading-[1em] lg:m-0 lg:pt-4">
+      <section className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto home-section-1">
+        <div className="mt-24 sm:mt-28 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
+          <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:leading-[1em] lg:m-0">
             Find the best <span className="text-secondary">talent</span>
           </h1>
-          <div className="lg:flex lg:flex-col lg:justify-between lg:max-w-[40%]">
-            <div className="hidden lg:block lg:w-[50px] h-1 bg-rapture-blue mb-24"></div>
-            <p className="text-center leading-7 mb-40 sm:px-32 lg:text-left lg:text-lg lg:m-0 lg:px-0 lg:pb-1">
+          <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[40%]">
+            <div className="hidden lg:block lg:w-[50px] h-1 bg-rapture-blue mb-16" />
+            <p className="text-center leading-7 mb-40 sm:px-32 lg:text-left lg:text-lg lg:m-0 lg:px-0 lg:pr-16">
               Finding the right people and building high performing teams can be
               hard. Most companies aren’t tapping into the abundance of global
               talent. We’re about to change that.
             </p>
           </div>
-        </section>
-      </div>
-      <div className="home-section-2 bg-sacramento-state-green">
-        <div className="py-16 sm:py-24 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto">
+        </div>
+      </section>
+      <section className="home-section-2 bg-sacramento-state-green">
+        <div className="py-16 sm:py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <div className="lg:flex lg:justify-between pt-9">
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
@@ -57,14 +57,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="home-section-3">
-        <div className="py-36 testimonials sm:pt-28 sm:pb-0 px-6 sm:px-10 sm:container sm:mx-auto lg:container lg:mx-auto">
+      </section>
+      <section className="home-section-3 sm:py-28 lg:py-36">
+        <div className="testimonials px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <h2 className="text-[32px] text-center font-bold mb-4 lg:px-32 lg:text-5xl lg:mt-8">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
           </h2>
-          <div className="lg:flex lg:items-start lg:justify-between lg:gap-8 lg:mt-10 lg:mb-36">
+          <div className="lg:flex lg:items-start lg:justify-between lg:gap-8 lg:mt-10">
             <Testimonial
               image={{ src: person1Img, alt: 'Testimonial photo of Kady' }}
               person={{
@@ -91,7 +91,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
       <Contact />
     </>
   );
