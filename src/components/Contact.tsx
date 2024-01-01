@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
           <div className="text-center">
             <Link
               to="/contact"
-              className="h-12 flex items-center font-semibold text-lg text-sacramento-state-green border-2 border-sacramento-state-green rounded-full px-8"
+              className="py-2 px-8 inline-block font-semibold text-lg text-sacramento-state-green border-2 border-sacramento-state-green rounded-full"
             >
               contact us
             </Link>

@@ -33,6 +33,31 @@
   background-position: top left, bottom -100px right 0;
 }
 
+.about-section-1 {
+  background-image: url('./assets/images/bg-pattern-about-1-mobile-nav-1.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
+}
+
+.about-section-2 {
+  background-image: url('./assets/images/bg-pattern-about-2-contact-1.svg'),
+    url('./assets/images/bg-pattern-home-4-about-3.svg');
+  background-repeat: no-repeat;
+  background-position: top -100px left -100px, bottom right;
+}
+
+.about-section-3 {
+  background-image: url('./assets/images/bg-pattern-about-4.svg');
+  background-repeat: no-repeat;
+  background-position: top -100px left -100px;
+}
+
+.contact-section-1 {
+  background-image: url('./assets/images/bg-pattern-contact-2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
+}
+
 @media (min-width: 640px) {
   .home-section-1 {
     background-position: bottom 0 center 0;

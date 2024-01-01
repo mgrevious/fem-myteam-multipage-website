@@ -32,7 +32,7 @@ const Header: React.FC = () => {
               </div>
               <Link
                 to="/contact"
-                className="hidden sm:inline-block h-12 lg:flex lg:items-center font-semibold text-lg border-2 text-white border-white rounded-full px-8"
+                className="hidden sm:inline-block h-12 font-semibold text-lg border-2 text-white border-white rounded-full py-2 px-8"
               >
                 contact us
               </Link>

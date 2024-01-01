@@ -18,24 +18,25 @@ const Contact = () => {
     },
   ];
   return (
-    <section className="contact-section-1 mb-20">
-      <div className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
-        <div className="grid grid-cols-2">
-          {' '}
+    <section className="contact-section-1">
+      <div className="pt-10 pb-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="flex flex-col">
-            <h1 className="sm:text-[64px] font-bold my-9">Contact</h1>
-            <h2 className="sm:text-3xl text-secondary font-bold mb-9">
+            <h1 className="mb-6 sm:mb-9 text-center sm:text-left text-[40px] sm:text-[64px] font-bold">
+              Contact
+            </h1>
+            <h2 className="text-center mb-10 sm:text-left text-[32px] text-secondary font-bold lg:mb-9">
               Ask us about
             </h2>
             <div>
               {thingsToAsk.map((data) => (
-                <div className="flex items-center mb-4">
-                  <span>
+                <div className="flex items-center mb-8 lg:mb-4">
+                  <div className="w-16 h-16 shrink-0 mr-6">
                     <img src={data.icon} alt="icon" />
-                  </span>
-                  <span className="lg:ml-8 font-semibold text-xl">
+                  </div>
+                  <div className="lg:ml-8 font-semibold text-xl">
                     {data.text}
-                  </span>
+                  </div>
                 </div>
               ))}
             </div>

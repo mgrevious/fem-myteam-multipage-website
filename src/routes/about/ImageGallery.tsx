@@ -29,7 +29,7 @@ const ImageGallery: React.FC = () => {
       {directors.map((director) =>
         imageState.selected &&
         director.name.toLowerCase().includes(imageState.name) ? (
-          <div className="relative flex flex-col items-center bg-dark-green py-8 px-12 mb-16">
+          <div className="relative flex flex-col items-center bg-dark-green py-8 px-12 mb-14 lg:mb-16">
             <h3 className="text-lg font-semibold text-rapture-blue mb-3">
               {director.name}
             </h3>
@@ -37,7 +37,7 @@ const ImageGallery: React.FC = () => {
               "Empowered teams create truly amazing products. Set the north star
               and let them follow it."
             </p>
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-4 mb-4 lg:mb-0">
               <a href="https://twitter.com" target="_blank">
                 <img src={TwitterIcon} alt="twitter icon" />
               </a>
@@ -56,7 +56,7 @@ const ImageGallery: React.FC = () => {
             </div>
           </div>
         ) : (
-          <div className="relative flex flex-col items-center bg-sacramento-state-green p-8 mb-16">
+          <div className="relative flex flex-col items-center bg-sacramento-state-green p-8 mb-14 lg:mb-16">
             {director.getImage()}
             <h3 className="text-lg font-semibold text-rapture-blue mb-1">
               {director.name}
