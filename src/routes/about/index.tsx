@@ -12,7 +12,7 @@ const About = () => {
       <section className="about-section-1">
         <div className="px-6 pt-12 pb-32 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <div className="lg:flex lg:justify-start">
-            <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-2 lg:mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:leading-[1em] lg:m-0 lg:w-2/5">
+            <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-4 sm:mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:leading-[1em] lg:m-0 lg:w-2/5">
               About
             </h1>
             <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[60%]">
