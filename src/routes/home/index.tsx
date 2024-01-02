@@ -8,12 +8,14 @@ import personIcon from '../../assets/images/icon-person.svg';
 import cogIcon from '../../assets/images/icon-cog.svg';
 import chartIcon from '../../assets/images/icon-chart.svg';
 
-import './home.scss';
+import classes from './home.module.scss';
 
 const Home = () => {
   return (
     <>
-      <section className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto home-section-1">
+      <section
+        className={`${classes['section-1']} py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto`}
+      >
         <div className="sm:mt-4 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
           <h1 className="text-[40px] leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-10 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
             Find the best <span className="text-secondary">talent</span>
@@ -28,7 +30,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-section-2 bg-sacramento-state-green">
+      <section className={`${classes['section-2']} bg-sacramento-state-green`}>
         <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="relative">
@@ -58,7 +60,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-section-3 bg-deep-jungle-green">
+      <section className={`${classes['section-3']} bg-deep-jungle-green`}>
         <div className="testimonials py-32 px-6 sm:px-10 sm:py-20 lg:px-16 lg:py-32 sm:container sm:mx-auto lg:container lg:mx-auto">
           <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 lg:mt-4 lg:px-32 lg:text-5xl">
             Delivering real results for top companies. Some of our{' '}

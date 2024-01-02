@@ -5,11 +5,12 @@ import JakartaIcon from '../../assets/images/logo-jakarta-post.png';
 import GuardianIcon from '../../assets/images/logo-the-guardian.png';
 import TechRadarIcon from '../../assets/images/logo-tech-radar.png';
 import GadgetsNowIcon from '../../assets/images/logo-gadgets-now.png';
+import classes from './about.module.scss';
 
 const About = () => {
   return (
     <>
-      <section className="about-section-1">
+      <section className={classes['section-1']}>
         <div className="px-6 pt-12 pb-32 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
           <div className="lg:flex lg:justify-start">
             <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-4 sm:mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:leading-[1em] lg:m-0 lg:w-2/5">
@@ -28,7 +29,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="about-section-2 bg-deep-jungle-green">
+      <section className={`${classes['section-2']} bg-deep-jungle-green`}>
         <div className="py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto lg:py-32">
           <div>
             <h2 className="text-[32px] text-center font-bold mb-12 lg:px-16 lg:p-0 lg:mb-16">
@@ -38,7 +39,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="about-section-3 bg-sacramento-state-green">
+      <section className={`${classes['section-3']} bg-sacramento-state-green`}>
         <div className="py-20 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto lg:py-32">
           <h3 className="text-3xl sm:text-[32px] lg:text-[48px] text-center font-bold mb-12 lg:p-0 sm:px-40 lg:mb-16">
             Some of our clients

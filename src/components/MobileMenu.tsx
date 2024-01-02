@@ -19,10 +19,7 @@ const MobileMenu: React.FC<Props> = ({ menuRef, menuBgRef }) => {
   };
 
   return (
-    <div
-      id="menu"
-      className="w-full fixed right-0 top-0 md:block md:static md:w-auto"
-    >
+    <div id="menu" className="w-full fixed right-0 top-0 md:w-auto md:hidden">
       <div
         ref={menuBgRef}
         className="opacity-50 bg-black hidden min-h-screen absolute right-0 left-0 top-0"
@@ -40,10 +37,14 @@ const MobileMenu: React.FC<Props> = ({ menuRef, menuBgRef }) => {
         </button>
         <ul className="pl-10 text-white flex flex-col md:flex-row md:pt-0 text-lg md:text-[15px] font-light leading-6 text-header tracking-wide min-h-screen md:static md:min-h-min md:w-auto bg-police-blue pt-28">
           <li className="py-4 sm:pl-[52px] font-semibold">
-            <a href="#">home</a>
+            <Link onClick={handleClose} to="/">
+              home
+            </Link>
           </li>
           <li className="py-4 sm:pl-[52px] font-semibold">
-            <a href="#">about</a>
+            <Link onClick={handleClose} to="/about">
+              about
+            </Link>
           </li>
           <li>
             <Link

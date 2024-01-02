@@ -1,0 +1,39 @@
+.section-1 {
+  background-image: url('../../assets/images/bg-pattern-about-1-mobile-nav-1.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
+}
+
+.section-2 {
+  background-image: url('./assets/images/bg-pattern-about-2-contact-1.svg'),
+    url('../../assets/images/bg-pattern-home-4-about-3.svg');
+  background-repeat: no-repeat;
+  background-position: top -100px left -100px, bottom right;
+}
+
+.section-3 {
+  background-image: url('../../assets/images/bg-pattern-about-4.svg');
+  background-repeat: no-repeat;
+  background-position: top -100px left -100px;
+}
+
+@media (min-width: 1024px) {
+  .section-1 {
+    background-image: url('../../assets/images/bg-pattern-about-1-mobile-nav-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0 right -100px;
+  }
+
+  .section-2 {
+    background-image: url('../../assets/images/bg-pattern-about-2-contact-1.svg'),
+      url('../../assets/images/bg-pattern-home-4-about-3.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left -100px, bottom right;
+  }
+
+  .section-3 {
+    background-image: url('../../assets/images/bg-pattern-about-4.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+  }
+}

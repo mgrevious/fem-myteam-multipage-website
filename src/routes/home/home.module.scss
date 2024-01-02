@@ -1,0 +1,52 @@
+.section-1 {
+  background-image: url('../../assets/images/bg-pattern-home-2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.section-2 {
+  background-image: url('../../assets/images/bg-pattern-home-3.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 right -80px;
+}
+
+.section-3 {
+  background-image: url('../../assets/images/bg-pattern-home-4-about-3.svg'),
+    url('../../assets/images/bg-pattern-about-2-contact-1.svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom -100px right 0;
+}
+
+.comma-icon {
+  background: url('../../assets/images/icon-quotes.svg') no-repeat;
+  background-position: 50% 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .section-1 {
+    background-position: bottom 0 center 0;
+    background-size: auto;
+  }
+  .section-2 {
+    background-position: 150px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-1 {
+    // @keyframes animatedBackground {
+    //   from {
+    //     background-position: bottom right;
+    //   }
+    //   to {
+    //     background-position: bottom left;
+    //   }
+    // }
+    background-position: bottom right;
+    background-size: auto;
+    // animation: animatedBackground 10s linear;
+  }
+  .section-2 {
+    background-image: url('../../assets/images/bg-pattern-home-3.svg');
+  }
+}

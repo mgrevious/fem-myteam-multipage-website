@@ -1,0 +1,21 @@
+.section-1 {
+  background-image: url('../../assets/images/bg-pattern-2.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -100px right -100px;
+}
+
+@media (min-width: 640px) {
+  .section {
+    background-image: url('../../assets/images/bg-pattern-home-6-about-5.svg');
+    background-repeat: no-repeat;
+    background-position: bottom -1rem left 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-1 {
+    background-image: url('../../assets/images/bg-pattern-about-2-contact-1.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left -100px;
+  }
+}

@@ -1,6 +1,7 @@
 import AskIcon1 from '../../assets/images/icon-person.svg';
 import AskIcon2 from '../../assets/images/icon-cog.svg';
 import AskIcon3 from '../../assets/images/icon-chart.svg';
+import classes from './contact.module.scss';
 
 const Contact = () => {
   const thingsToAsk = [
@@ -18,7 +19,7 @@ const Contact = () => {
     },
   ];
   return (
-    <section className="contact-section-1">
+    <section className={classes['section-1']}>
       <div className="pt-10 pb-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="flex flex-col">

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Livvic', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+
+  background-color: #014e56;
+}
+
+#root {
+  margin: 0 auto;
+  color: white;
+}
