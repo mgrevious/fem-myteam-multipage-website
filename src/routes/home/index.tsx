@@ -1,5 +1,6 @@
-import Pitch from './components/Pitch';
-import Testimonial from './components/Testimonial';
+import Pitch from './Pitch';
+import Contact from '../../components/Contact';
+import Testimonial from './Testimonial';
 import person1Img from '../../assets/images/avatar-kady.jpg';
 import person2Img from '../../assets/images/avatar-aiysha.jpg';
 import person3Img from '../../assets/images/avatar-arthur.jpg';
@@ -8,14 +9,13 @@ import cogIcon from '../../assets/images/icon-cog.svg';
 import chartIcon from '../../assets/images/icon-chart.svg';
 
 import './home.scss';
-import Contact from '../../components/Contact';
 
 const Home = () => {
   return (
     <>
       <section className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto home-section-1">
         <div className="sm:mt-4 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
-          <h1 className="text-4xl leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-16 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
+          <h1 className="text-[40px] leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-10 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
             Find the best <span className="text-secondary">talent</span>
           </h1>
           <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[40%]">
@@ -58,9 +58,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-section-3 py-32 sm:py-20 lg:py-36">
-        <div className="testimonials px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
-          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 lg:px-32 lg:text-5xl">
+      <section className="home-section-3 bg-deep-jungle-green">
+        <div className="testimonials py-32 px-6 sm:px-10 sm:py-20 lg:px-16 lg:py-32 sm:container sm:mx-auto lg:container lg:mx-auto">
+          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 lg:mt-4 lg:px-32 lg:text-5xl">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
           </h2>

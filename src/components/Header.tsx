@@ -1,11 +1,25 @@
+import { createRef } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/images/logo.svg';
 import hamburgerMenu from '../assets/images/icon-hamburger.svg';
-import { Link, NavLink } from 'react-router-dom';
+import MobileMenu from './MobileMenu';
 
 const Header: React.FC = () => {
+  const menuRef = createRef<HTMLElement>();
+  const menuBgRef = createRef<HTMLDivElement>();
+
+  const handleOpen = () => {
+    if (menuRef.current && menuBgRef.current) {
+      menuRef.current.classList.remove('-right-2/3');
+      menuRef.current.classList.add('right-0');
+      menuBgRef.current.classList.remove('hidden');
+      menuBgRef.current.classList.add('block');
+    }
+  };
+
   return (
     <>
-      <div className="py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
+      <div className="py-12 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
         <header className="text-lg text-center font-semibold text-secondary">
           <nav>
             <div className="flex justify-between items-center">
@@ -36,12 +50,18 @@ const Header: React.FC = () => {
               >
                 contact us
               </Link>
-              <button type="button" className="sm:hidden">
+              <button
+                id="mobile-menu"
+                type="button"
+                className="sm:hidden"
+                onClick={handleOpen}
+              >
                 <img src={hamburgerMenu} alt="" />
               </button>
             </div>
           </nav>
         </header>
+        <MobileMenu menuRef={menuRef} menuBgRef={menuBgRef} />
       </div>
     </>
   );
