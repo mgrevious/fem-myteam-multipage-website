@@ -1,5 +1,5 @@
 import { createRef } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.svg';
 import hamburgerMenu from '../assets/images/icon-hamburger.svg';
 import MobileMenu from './MobileMenu';
@@ -26,22 +26,12 @@ const Header: React.FC = () => {
               <div className="flex justify-start items-center">
                 <img src={logo} alt="MyTeam Logo" className="w-40 sm:mr-16" />
                 <div className="text-white hidden sm:flex sm:gap-10">
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? 'text-secondary hover:text-secondary' : ''
-                    }
-                    to="/"
-                  >
+                  <Link className="hover:text-secondary" to="/">
                     home
-                  </NavLink>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? 'text-secondary hover:text-secondary' : ''
-                    }
-                    to="/about"
-                  >
+                  </Link>
+                  <Link className="hover:text-secondary" to="/about">
                     about
-                  </NavLink>
+                  </Link>
                 </div>
               </div>
               <Link
