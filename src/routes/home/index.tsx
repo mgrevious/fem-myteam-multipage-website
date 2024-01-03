@@ -60,12 +60,12 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-3']} bg-deep-jungle-green`}>
-        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:py-32 sm:container sm:mx-auto xl:container xl:mx-auto">
-          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:mt-4 xl:px-32 xl:text-5xl">
+        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:pb-32 xl:pt-28 sm:container sm:mx-auto xl:container xl:mx-auto">
+          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:my-0 xl:px-32 xl:text-5xl">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
           </h2>
-          <div className="xl:flex xl:items-start xl:justify-between xl:gap-8 xl:mt-10">
+          <div className="xl:flex xl:items-start xl:justify-between xl:gap-8 xl:mt-6">
             <Testimonial
               image={{ src: person1Img, alt: 'Testimonial photo of Kady' }}
               person={{
