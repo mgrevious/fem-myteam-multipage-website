@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <section className={classes['section-1']}>
         <div className="py-10 px-6 sm:px-10 xl:px-16 sm:container sm:mx-auto xl:container xl:mx-auto">
-          <div className="flex flex-col sm:mt-4 sm:items-center xl:flex-row xl:mb-48 xl:mt-0 xl:flex xl:justify-between">
+          <div className="flex flex-col sm:mt-4 sm:items-center xl:flex-row xl:mb-48 xl:mt-4 xl:flex xl:justify-between">
             <h1 className="text-center font-bold mb-6 px-10 xl:p-0 text-[40px] leading-[1em] sm:text-[64px] sm:w-3/6 xl:w-full xl:text-left xl:text-[100px] xl:m-0">
               Find the best <span className="text-secondary">talent</span>
             </h1>
