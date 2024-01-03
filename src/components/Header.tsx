@@ -23,8 +23,8 @@ const Header: React.FC = () => {
         <header className="text-lg text-center font-semibold text-secondary">
           <nav>
             <div className="flex justify-between items-center">
-              <div className="flex justify-start">
-                <img src={logo} alt="MyTeam Logo" className="w-32 sm:mr-12" />
+              <div className="flex justify-start items-center">
+                <img src={logo} alt="MyTeam Logo" className="w-40 sm:mr-16" />
                 <div className="text-white hidden sm:flex sm:gap-10">
                   <NavLink
                     className={({ isActive }) =>

@@ -7,26 +7,27 @@ import person3Img from '../../assets/images/avatar-arthur.jpg';
 import personIcon from '../../assets/images/icon-person.svg';
 import cogIcon from '../../assets/images/icon-cog.svg';
 import chartIcon from '../../assets/images/icon-chart.svg';
-
-import classes from './home.module.scss';
+import classes from './home.module.css';
 
 const Home = () => {
   return (
     <>
-      <section
-        className={`${classes['section-1']} py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto`}
-      >
-        <div className="sm:mt-4 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
-          <h1 className="text-[40px] leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-10 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
-            Find the best <span className="text-secondary">talent</span>
-          </h1>
-          <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[40%]">
-            <div className="hidden lg:block lg:w-[50px] h-1 bg-rapture-blue mb-16" />
-            <p className="text-center leading-7 mb-40 sm:mb-48 sm:px-32 lg:text-left lg:text-lg lg:m-0 lg:px-0 lg:pr-16">
-              Finding the right people and building high performing teams can be
-              hard. Most companies aren’t tapping into the abundance of global
-              talent. We’re about to change that.
-            </p>
+      <section>
+        <div
+          className={`py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto ${classes['section-1']}`}
+        >
+          <div className="sm:mt-4 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
+            <h1 className="text-[40px] leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-10 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
+              Find the best <span className="text-secondary">talent</span>
+            </h1>
+            <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[40%]">
+              <div className="hidden lg:block lg:w-[50px] h-1 bg-rapture-blue mb-16" />
+              <p className="font-semibold text-center leading-7 mb-40 sm:mb-48 sm:px-32 lg:text-left lg:text-lg lg:m-0 lg:px-0 lg:pr-16">
+                Finding the right people and building high performing teams can
+                be hard. Most companies aren’t tapping into the abundance of
+                global talent. We’re about to change that.
+              </p>
+            </div>{' '}
           </div>
         </div>
       </section>

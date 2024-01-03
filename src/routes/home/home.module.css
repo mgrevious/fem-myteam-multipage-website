@@ -34,19 +34,20 @@
 
 @media (min-width: 1024px) {
   .section-1 {
-    // @keyframes animatedBackground {
-    //   from {
-    //     background-position: bottom right;
-    //   }
-    //   to {
-    //     background-position: bottom left;
-    //   }
-    // }
+    /* @keyframes animatedBackground {
+     from {
+       background-position: bottom right;
+     }
+     to {
+       background-position: bottom left;
+     }
+   } */
     background-position: bottom right;
     background-size: auto;
-    // animation: animatedBackground 10s linear;
+    /* animation: animatedBackground 10s linear; */
   }
   .section-2 {
     background-image: url('../../assets/images/bg-pattern-home-3.svg');
+    background-position: bottom 0 right -80px;
   }
 }

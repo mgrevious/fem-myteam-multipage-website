@@ -5,7 +5,7 @@ import Home from './routes/home/index.tsx';
 import About from './routes/about/index.tsx';
 import Contact from './routes/contact/index.tsx';
 
-import './index.scss';
+import './index.css';
 
 export default function App() {
   return createHashRouter([

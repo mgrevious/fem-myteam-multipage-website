@@ -26,10 +26,13 @@ const ImageGallery: React.FC = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {directors.map((director) =>
+      {directors.map((director, index) =>
         imageState.selected &&
         director.name.toLowerCase().includes(imageState.name) ? (
-          <div className="relative flex flex-col items-center bg-dark-green py-8 px-12 mb-14 lg:mb-16">
+          <div
+            key={index}
+            className="relative flex flex-col items-center bg-dark-green py-8 px-12 mb-14 lg:mb-16"
+          >
             <h3 className="text-lg font-semibold text-rapture-blue mb-3">
               {director.name}
             </h3>
@@ -56,7 +59,10 @@ const ImageGallery: React.FC = () => {
             </div>
           </div>
         ) : (
-          <div className="relative flex flex-col items-center bg-sacramento-state-green p-8 mb-14 lg:mb-16">
+          <div
+            key={index}
+            className="relative flex flex-col items-center bg-sacramento-state-green p-8 mb-14 lg:mb-16"
+          >
             {director.getImage()}
             <h3 className="text-lg font-semibold text-rapture-blue mb-1">
               {director.name}

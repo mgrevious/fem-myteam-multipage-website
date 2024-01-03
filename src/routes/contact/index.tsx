@@ -1,7 +1,7 @@
 import AskIcon1 from '../../assets/images/icon-person.svg';
 import AskIcon2 from '../../assets/images/icon-cog.svg';
 import AskIcon3 from '../../assets/images/icon-chart.svg';
-import classes from './contact.module.scss';
+import classes from './contact.module.css';
 
 const Contact = () => {
   const thingsToAsk = [

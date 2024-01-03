@@ -5,7 +5,7 @@ import JakartaIcon from '../../assets/images/logo-jakarta-post.png';
 import GuardianIcon from '../../assets/images/logo-the-guardian.png';
 import TechRadarIcon from '../../assets/images/logo-tech-radar.png';
 import GadgetsNowIcon from '../../assets/images/logo-gadgets-now.png';
-import classes from './about.module.scss';
+import classes from './about.module.css';
 
 const About = () => {
   return (
@@ -29,7 +29,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className={`${classes['section-2']} bg-deep-jungle-green`}>
+      <section
+        className={`${classes['section-2']} bg-deep-jungle-green overflow-hidden`}
+      >
         <div className="py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto lg:py-32">
           <div>
             <h2 className="text-[32px] text-center font-bold mb-12 lg:px-16 lg:p-0 lg:mb-16">

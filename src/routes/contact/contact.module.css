@@ -1,11 +1,12 @@
 .section-1 {
-  background-image: url('../../assets/images/bg-pattern-2.svg');
+  background-image: url('../../assets/images/bg-pattern-contact-2.svg');
+  background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom -100px right -100px;
 }
 
 @media (min-width: 640px) {
-  .section {
+  .section-1 {
     background-image: url('../../assets/images/bg-pattern-home-6-about-5.svg');
     background-repeat: no-repeat;
     background-position: bottom -1rem left 0;
