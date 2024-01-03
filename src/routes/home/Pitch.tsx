@@ -13,10 +13,10 @@ const Pitch: React.FC<Props> = ({ icon, header, content }) => {
     >
       <img src={icon.src} alt={icon.alt} className="mb-6 sm:mb-0 sm:mr-7" />
       <div>
-        <h3 className="text-secondary text-center sm:text-left font-bold mb-3 sm:mb-5 text-lg">
+        <h3 className="text-secondary text-center sm:text-left font-bold mb-3 sm:mb-4 text-lg">
           {header}
         </h3>
-        <p className="text-center sm:text-left opacity-60 w-full leading-6">
+        <p className="text-center sm:text-left opacity-60 w-full leading-6 font-semibold">
           {content}
         </p>
       </div>

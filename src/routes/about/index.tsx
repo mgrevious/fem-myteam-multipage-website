@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <section className={classes['section-1']}>
-        <div className="px-6 pt-12 pb-32 sm:px-28 sm:container sm:mx-auto xl:px-16 xl:pt-16 xl:pb-[140px] xl:container xl:mx-auto">
+        <div className="px-6 pt-12 pb-32 sm:px-28 sm:container sm:mx-auto xl:px-16 xl:pt-16 xl:pb-[128px] xl:container xl:mx-auto">
           <div className="flex flex-col xl:flex xl:flex-row xl:justify-start">
             <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-4 sm:mb-8 px-16 xl:p-0 sm:px-40 xl:text-left xl:text-[100px] xl:leading-[1em] xl:m-0 xl:w-2/5">
               About
@@ -32,7 +32,7 @@ const About = () => {
       <section
         className={`${classes['section-2']} bg-deep-jungle-green overflow-hidden`}
       >
-        <div className="py-24 px-6 sm:px-28 sm:container sm:mx-auto sm:py-[100px] xl:px-16 xl:container xl:mx-auto xl:py-[140px]">
+        <div className="py-24 px-6 sm:px-28 sm:container sm:mx-auto sm:py-[100px] xl:px-16 xl:container xl:mx-auto xl:py-[128px]">
           <div>
             <h2 className="text-[32px] text-center font-bold mb-12 xl:px-16 xl:p-0 xl:mb-16 xl:text-[48px]">
               Meet the directors
@@ -42,7 +42,7 @@ const About = () => {
         </div>
       </section>
       <section className={`${classes['section-3']} bg-sacramento-state-green`}>
-        <div className="py-20 px-6 sm:px-28 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-[140px] xl:pb-[152px]">
+        <div className="py-20 px-6 sm:px-28 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-[128px] xl:pb-[152px]">
           <h3 className="text-3xl sm:text-[32px] xl:text-[48px] text-center font-bold mb-12 xl:p-0 sm:px-40 xl:mb-16">
             Some of our clients
           </h3>

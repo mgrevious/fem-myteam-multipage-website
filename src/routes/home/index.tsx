@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-2']} bg-sacramento-state-green`}>
-        <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-28 sm:container sm:mx-auto xl:py-[140px] xl:container xl:mx-auto">
+        <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-28 sm:container sm:mx-auto xl:py-[128px] xl:container xl:mx-auto">
           <div className="xl:flex xl:justify-between">
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-3']} bg-deep-jungle-green`}>
-        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:py-32 sm:container sm:mx-auto xl:py-[140px xl:container xl:mx-auto">
+        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:py-32 sm:container sm:mx-auto xl:py-[128px xl:container xl:mx-auto">
           <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:mt-4 xl:px-32 xl:text-5xl">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
