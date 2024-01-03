@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <section className={classes['section-1']}>
-        <div className="py-10 px-6 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-0 xl:pb-48">
+        <div className="py-10 px-6 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-0 xl:pb-52">
           <div className="flex flex-col sm:mt-4 sm:items-center xl:flex-row xl:mb-0 xl:mt-4 xl:flex xl:justify-start">
             <h1 className="text-center font-bold mb-6 px-10 xl:p-0 text-[40px] leading-[1em] sm:text-[64px] sm:w-3/6 xl:text-left xl:text-[100px] xl:w-1/2 xl:mr-8 xl:mb-0">
               Find the best <span className="text-secondary">talent</span>
