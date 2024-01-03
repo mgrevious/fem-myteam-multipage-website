@@ -32,13 +32,13 @@ const Home = () => {
       <section className={`${classes['section-2']} bg-sacramento-state-green`}>
         <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-28 sm:container sm:mx-auto xl:py-[128px] xl:container xl:mx-auto">
           <div className="xl:flex xl:justify-between">
-            <div className="relative">
+            <div className="relative xl:w-5/12">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
               <h2 className="text-[32px] font-bold mb-14 pt-12 xl:text-[48px]">
                 Build & manage distributed teams like no one else.
               </h2>
             </div>
-            <div className="xl:pt-12 sm:flex sm:flex-col sm:justify-start">
+            <div className="xl:pt-12 sm:flex sm:flex-col sm:justify-start xl:w-6/12">
               <Pitch
                 icon={{ src: personIcon, alt: 'Person Icon' }}
                 header="Experienced Individuals"
