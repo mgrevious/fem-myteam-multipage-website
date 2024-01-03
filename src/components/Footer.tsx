@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <div className="bg-dark-green text-white">
-        <div className="py-16 sm:py-16 px-6 sm:px-10 xl:px-16 sm:container sm:mx-auto xl:container xl:mx-auto">
+        <div className="py-16 sm:py-16 px-6 sm:px-10 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
           <div className="flex flex-col justify-center items-center xl:flex-row xl:h-[100px]">
             <div className="flex flex-col items-center justify-center sm:flex-row sm:justify-between sm:w-full sm:items-start xl:justify-start">
               {' '}
