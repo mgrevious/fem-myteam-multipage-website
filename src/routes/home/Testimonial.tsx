@@ -19,7 +19,7 @@ const Testimonial: React.FC<Props> = ({ image, content, person }) => {
         </h3>
         <h4 className="italic text-sm">{person.title}</h4>
       </div>
-      <div className="pb-6">
+      <div className="pb-6 xl:pb-0">
         <img
           src={image.src}
           alt={image.alt}
