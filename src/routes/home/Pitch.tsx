@@ -9,7 +9,7 @@ interface Props {
 const Pitch: React.FC<Props> = ({ icon, header, content }) => {
   return (
     <section
-      className={`mb-14 sm:mb-10 flex flex-col sm:flex-row items-center sm:justify-center sm:items-start`}
+      className={`mb-14 sm:mb-10 flex flex-col sm:flex-row items-center sm:justify-start sm:items-center`}
     >
       <img src={icon.src} alt={icon.alt} className="mb-6 sm:mb-0 sm:mr-7" />
       <div>

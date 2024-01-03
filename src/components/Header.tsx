@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="py-12 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
+      <div className="py-[72px] px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
         <header className="text-lg text-center font-semibold text-secondary">
           <nav>
             <div className="flex justify-between items-center">
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
               </div>
               <Link
                 to="/contact"
-                className="hidden sm:inline-block h-12 font-semibold text-lg border-2 text-white border-white rounded-full py-2 px-8"
+                className="hidden sm:inline-block font-semibold text-lg border-2 text-white border-white rounded-full py-3 px-9"
               >
                 contact us
               </Link>

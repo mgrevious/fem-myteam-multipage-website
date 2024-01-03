@@ -14,15 +14,15 @@ const Home = () => {
     <>
       <section>
         <div
-          className={`py-10 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto ${classes['section-1']}`}
+          className={`py-10 px-6 sm:px-10 xl:px-16 sm:container sm:mx-auto xl:container xl:mx-auto ${classes['section-1']}`}
         >
-          <div className="sm:mt-4 lg:mb-48 lg:mt-10 lg:flex lg:justify-between">
-            <h1 className="text-[40px] leading-[1em] sm:text-[64px] text-center font-bold mb-6 px-10 lg:p-0 sm:px-40 lg:text-left lg:text-[100px] lg:m-0">
+          <div className="flex flex-col sm:mt-4 sm:items-center xl:flex-row xl:mb-48 xl:mt-10 xl:flex xl:justify-between">
+            <h1 className="text-center font-bold mb-6 px-10 xl:p-0 text-[40px] leading-[1em] sm:text-[64px] sm:w-3/6 xl:w-full xl:text-left xl:text-[100px] xl:m-0">
               Find the best <span className="text-secondary">talent</span>
             </h1>
-            <div className="lg:flex lg:flex-col lg:justify-start lg:max-w-[40%]">
-              <div className="hidden lg:block lg:w-[50px] h-1 bg-rapture-blue mb-16" />
-              <p className="font-semibold text-center leading-7 mb-40 sm:mb-48 sm:px-32 lg:text-left lg:text-lg lg:m-0 lg:px-0 lg:pr-16">
+            <div className="sm:flex sm:justify-center xl:flex xl:flex-col xl:justify-start xl:max-w-[40%]">
+              <div className="hidden xl:block xl:w-[50px] h-1 bg-rapture-blue mb-16" />
+              <p className="font-semibold text-center leading-7 mb-40 sm:mb-48 sm:w-3/6 xl:w-full xl:text-left xl:text-xl xl:m-0 xl:px-0 xl:pr-16">
                 Finding the right people and building high performing teams can
                 be hard. Most companies aren’t tapping into the abundance of
                 global talent. We’re about to change that.
@@ -32,15 +32,15 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-2']} bg-sacramento-state-green`}>
-        <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-10 lg:px-16 sm:container sm:mx-auto lg:container lg:mx-auto">
-          <div className="lg:flex lg:justify-between">
+        <div className="pt-16 pb-4 sm:py-24 px-6 sm:px-28 sm:container sm:mx-auto xl:py-[140px] xl:container xl:mx-auto">
+          <div className="xl:flex xl:justify-between">
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
-              <h2 className="text-[32px] font-bold mb-14 w-2/3 pt-12 lg:text-[48px]">
+              <h2 className="text-[32px] font-bold mb-14 w-2/3 pt-12 xl:text-[48px]">
                 Build & manage distributed teams like no one else.
               </h2>
             </div>
-            <div className="lg:pt-12">
+            <div className="xl:pt-12 sm:flex sm:flex-col sm:justify-start">
               <Pitch
                 icon={{ src: personIcon, alt: 'Person Icon' }}
                 header="Experienced Individuals"
@@ -62,12 +62,12 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-3']} bg-deep-jungle-green`}>
-        <div className="testimonials py-32 px-6 sm:px-10 sm:py-20 lg:px-16 lg:py-32 sm:container sm:mx-auto lg:container lg:mx-auto">
-          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 lg:mt-4 lg:px-32 lg:text-5xl">
+        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:py-32 sm:container sm:mx-auto xl:py-[140px xl:container xl:mx-auto">
+          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:mt-4 xl:px-32 xl:text-5xl">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
           </h2>
-          <div className="lg:flex lg:items-start lg:justify-between lg:gap-8 lg:mt-10">
+          <div className="xl:flex xl:items-start xl:justify-between xl:gap-8 xl:mt-10">
             <Testimonial
               image={{ src: person1Img, alt: 'Testimonial photo of Kady' }}
               person={{
