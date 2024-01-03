@@ -34,7 +34,7 @@ const Home = () => {
           <div className="xl:flex xl:justify-between">
             <div className="relative">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
-              <h2 className="text-[32px] font-bold mb-14 w-4/6 pt-12 xl:text-[48px]">
+              <h2 className="text-[32px] font-bold mb-14 pt-12 xl:text-[48px]">
                 Build & manage distributed teams like no one else.
               </h2>
             </div>
