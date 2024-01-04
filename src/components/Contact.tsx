@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Contact: React.FC = () => {
   return (
     <section className="bg-secondary contact-section">
-      <div className="flex justify-center items-center py-20 px-6 sm:px-28 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
+      <div className="flex justify-center items-center py-20 px-6 sm:px-28 xl:px-16 sm:container sm:mx-auto xl:container xl:mx-auto">
         <section className="flex flex-col sm:flex-row justify-center sm:justify-between sm:items-center sm:w-full">
           <h3 className="text-sacramento-state-green text-3xl font-bold mb-7 sm:mb-0 text-center xl:text-[48px]">
             Ready to get started?
