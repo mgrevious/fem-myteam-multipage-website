@@ -19,7 +19,7 @@ const Home = () => {
               Find the best <span className="text-secondary">talent</span>
             </h1>
             <div className="sm:flex sm:justify-center xl:flex xl:flex-col xl:justify-between xl:w-1/2 xl:p-12">
-              <div className="hidden xl:block xl:w-[50px] h-1 bg-rapture-blue mb-16" />
+              <div className="hidden xl:block xl:w-[50px] h-1 bg-rapture-blue mb-20" />
               <p className="font-semibold text-center leading-7 mb-40 sm:mb-48 sm:w-3/6 xl:w-full xl:text-left xl:text-xl xl:m-0 xl:px-0">
                 Finding the right people and building high performing teams can
                 be hard. Most companies aren’t tapping into the abundance of

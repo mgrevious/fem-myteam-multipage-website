@@ -19,11 +19,11 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="py-[68px] px-6 sm:px-12 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
-        <header
-          role="banner"
-          className="text-xl text-center font-semibold text-secondary"
-        >
+      <header
+        role="banner"
+        className="py-[68px] px-6 sm:px-12 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto"
+      >
+        <div className="text-xl text-center font-semibold text-secondary">
           <nav role="navigation">
             <div className="flex justify-between items-center">
               <div className="flex justify-start items-center">
@@ -53,9 +53,9 @@ const Header: React.FC = () => {
               </button>
             </div>
           </nav>
-        </header>
+        </div>
         <MobileMenu menuRef={menuRef} menuBgRef={menuBgRef} />
-      </div>
+      </header>
     </>
   );
 };
