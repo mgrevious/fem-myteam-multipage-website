@@ -9,7 +9,7 @@ import classes from './about.module.css';
 
 const About = () => {
   return (
-    <main role="main">
+    <main>
       <section className={classes['section-1']}>
         <div className="px-6 pt-12 pb-32 sm:px-28 sm:container sm:mx-auto xl:px-16 xl:pt-16 xl:pb-[128px] xl:container xl:mx-auto">
           <div className="flex flex-col xl:flex xl:flex-row xl:justify-start">

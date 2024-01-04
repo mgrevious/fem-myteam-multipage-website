@@ -11,7 +11,7 @@ import classes from './home.module.css';
 
 const Home = () => {
   return (
-    <main role="main">
+    <main>
       <section className={classes['section-1']}>
         <div className="py-10 px-6 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-0 xl:pb-56">
           <div className="flex flex-col sm:mt-4 sm:items-center xl:flex-row xl:mb-0 xl:mt-4 xl:flex xl:justify-start">

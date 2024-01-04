@@ -19,7 +19,7 @@ const Contact = () => {
     },
   ];
   return (
-    <main role="main">
+    <main>
       <section className={classes['section-1']}>
         <div className="pt-10 pb-24 px-6 sm:px-28 xl:px-16 sm:container sm:mx-auto xl:container xl:mx-auto xl:pt-20 xl:pb-36">
           <div className="grid grid-cols-1 xl:grid-cols-2">
