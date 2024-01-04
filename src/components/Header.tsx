@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="py-16 px-6 sm:px-12 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
+      <div className="py-[68px] px-6 sm:px-12 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
         <header className="text-xl text-center font-semibold text-secondary">
           <nav>
             <div className="flex justify-between items-center">
