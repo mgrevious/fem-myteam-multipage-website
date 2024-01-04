@@ -20,8 +20,11 @@ const Header: React.FC = () => {
   return (
     <>
       <div className="py-[68px] px-6 sm:px-12 xl:px-20 sm:container sm:mx-auto xl:container xl:mx-auto">
-        <header className="text-xl text-center font-semibold text-secondary">
-          <nav>
+        <header
+          role="banner"
+          className="text-xl text-center font-semibold text-secondary"
+        >
+          <nav role="navigation">
             <div className="flex justify-between items-center">
               <div className="flex justify-start items-center">
                 <img src={logo} alt="MyTeam Logo" className="w-40 sm:mr-16" />
