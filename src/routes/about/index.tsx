@@ -11,9 +11,9 @@ const About = () => {
   return (
     <>
       <section className={classes['section-1']}>
-        <div className="px-6 pt-12 pb-32 sm:px-28 sm:container sm:mx-auto xl:px-20 xl:pt-16 xl:pb-[128px] xl:container xl:mx-auto">
+        <div className="px-6 pt-12 pb-32 sm:px-28 sm:container sm:mx-auto xl:px-16 xl:pt-16 xl:pb-[128px] xl:container xl:mx-auto">
           <div className="flex flex-col xl:flex xl:flex-row xl:justify-start">
-            <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-4 sm:mb-8 px-20 xl:p-0 sm:px-40 xl:text-left xl:text-[100px] xl:leading-[1em] xl:m-0 xl:w-2/5">
+            <h1 className="text-4xl sm:text-[64px] text-center font-bold mb-4 sm:mb-8 px-16 xl:p-0 sm:px-40 xl:text-left xl:text-[100px] xl:leading-[1em] xl:m-0 xl:w-2/5">
               About
             </h1>
             <div className="xl:flex xl:flex-col xl:justify-start xl:max-w-[60%]">
@@ -32,9 +32,9 @@ const About = () => {
       <section
         className={`${classes['section-2']} bg-deep-jungle-green overflow-hidden`}
       >
-        <div className="py-24 px-6 sm:px-28 sm:container sm:mx-auto sm:py-[100px] xl:px-20 xl:container xl:mx-auto xl:py-[128px]">
+        <div className="py-24 px-6 sm:px-28 sm:container sm:mx-auto sm:py-[100px] xl:px-16 xl:container xl:mx-auto xl:py-[128px]">
           <div>
-            <h2 className="text-[32px] text-center font-bold mb-12 xl:px-20 xl:p-0 xl:mb-16 xl:text-[48px]">
+            <h2 className="text-[32px] text-center font-bold mb-12 xl:px-16 xl:p-0 xl:mb-16 xl:text-[48px]">
               Meet the directors
             </h2>
             <ImageGallery />

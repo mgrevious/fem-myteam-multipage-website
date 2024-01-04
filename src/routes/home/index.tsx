@@ -34,7 +34,7 @@ const Home = () => {
           <div className="xl:flex xl:justify-between">
             <div className="relative xl:w-5/12">
               <div className="w-[50px] bg-secondary h-1 absolute top-0 left-0"></div>
-              <h2 className="text-[32px] font-bold mb-14 pt-12 xl:text-[48px]">
+              <h2 className="text-[32px] font-bold mb-14 pt-10 xl:text-[48px]">
                 Build & manage distributed teams like no one else.
               </h2>
             </div>
@@ -60,8 +60,8 @@ const Home = () => {
         </div>
       </section>
       <section className={`${classes['section-3']} bg-deep-jungle-green`}>
-        <div className="testimonials py-32 px-6 sm:px-28 sm:py-20 xl:px-16 xl:pb-32 xl:pt-28 sm:container sm:mx-auto xl:container xl:mx-auto">
-          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:my-0 xl:px-32 xl:text-5xl">
+        <div className="testimonials py-36 px-6 sm:px-28 sm:py-20 xl:px-16 xl:pb-32 xl:pt-28 sm:container sm:mx-auto xl:container xl:mx-auto">
+          <h2 className="text-[32px] sm:mt-8 text-center font-bold mb-4 xl:my-0 xl:px-28 xl:text-5xl">
             Delivering real results for top companies. Some of our{' '}
             <span className="text-rapture-blue">success stories.</span>
           </h2>

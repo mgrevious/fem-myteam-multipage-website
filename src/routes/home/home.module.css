@@ -28,11 +28,11 @@
     background-size: auto;
   }
   .section-2 {
-    background-position: 150px 0;
+    background-position: top 0 right -100px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .section-1 {
     background-image: url('../../assets/images/bg-pattern-home-2.svg'),
       url('../../assets/images/bg-pattern-home-1.svg');

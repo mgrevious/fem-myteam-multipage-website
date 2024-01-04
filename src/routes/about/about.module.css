@@ -17,7 +17,7 @@
   background-position: top -100px left -100px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .section-1 {
     background-image: url('../../assets/images/bg-pattern-about-1-mobile-nav-1.svg');
     background-repeat: no-repeat;
